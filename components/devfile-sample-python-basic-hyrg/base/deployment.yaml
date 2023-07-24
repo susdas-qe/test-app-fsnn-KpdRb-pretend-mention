@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-python-basic-hyrg
     spec:
       containers:
-      - image: python-image:latest
+      - image: quay.io/susdas_quay_org/demo/test-app-fsnn/devfile-sample-python-basic-hyrg@sha256:6f1eb3c16f7d2250a007497c654429ef47188d4c09e255c0e960312515d52133
         name: my-python
         ports:
         - containerPort: 8081
